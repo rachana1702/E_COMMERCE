@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+
+p{
+background-repeat: no-repeat, repeat;
+background-size:cover;
+
+}
+
+h1{
+color:black;
+}
+
+body{
+background-image:url('https://t3.ftcdn.net/jpg/02/68/25/70/360_F_268257025_F32XlKAYKjXMNUJC4pdpctiBzZobw7z1.jpg');
+background-size:1600px;
+background-repeat:no-repeat;
+
+</style>
+</head>
+
+<body>
+<center>
+<form action='\about'method='POST'>
+{% csrf_token %}
+	<h1>ABOUT US<h1>
+	<br/>
+	<h1 style="font-size:18px;">Gubu product is safe and verified. Product lines include  Chocolates, Electronics gadgets, Luxury bags for women.</h1>
+	<h2 style="font-size:18px;"></h2>
+</form>
+</center>
+</body>
+</html>

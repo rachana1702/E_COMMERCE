@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Register</title>
+</head>
+<body>
+<center>
+<form action='/register' method='POST'>
+{% csrf_token %}
+<img src="https://applian.com/img/login.svg"
+			width="500" 
+            height="300"></p>
+	<h1>REGISTER</h1>
+	FIRST NAME : <input type="text" name="fname" placeholder="Enter your first name"><br/><br/>
+	LAST NAME  : <input type="text" name="lname" placeholder="Enter your last name"><br/><br/>
+	USER NAME  : <input type="text" name="uname" placeholder="Enter your user name"><br/><br/>
+	PASSWORD   : <input type="password" name="pass1" placeholder="Enter your password"><br/><br/>
+	CONFIRM PASSWORD : <input type="password" name="pass2" placeholder="Enter your password"><br/><br/>
+	<button type="Register">Register</button>
+</form>	
+</center>
+</body>
+</html>

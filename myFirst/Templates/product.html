@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<style>
+<style>
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+</style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Product</title>
+</head>
+<body>
+<form action='\product'method='POST'>
+{% csrf_token %}
+</form>
+	<div>
+		<div>
+		<form action='\choco'method='POST'>
+		{% csrf_token %}
+		   <p style="text-align:left;"><img src="https://cdn.atwilltech.com/flowerdatabase/w/white-wine-chocolate-gift-basket-wine-chocolates-60099af1a619b8.05012387.425.jpg"
+			width="500" 
+            height="500"></p>
+			<h1>CHOCOLATES</h1>	
+			<button type="Submit">Click Here</button>
+		</div>
+		</form>
+	</div>
+	
+	
+	
+	<center>
+	<div>
+		<div>
+		<form action='\gdgts'method='POST'>
+		{% csrf_token %}
+			<p style="text-align:center;"><img src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FkZ2V0fGVufDB8fDB8fA%3D%3D&w=1000&q=80" 
+			class="center"
+			width="500" 
+            height="400"></p>
+			<h2>GADGETS</h2>	
+			<button type="Submit">Click Here</button>
+		</div>
+		</form>
+	</div>
+	</center>
+	
+	
+	
+	
+	<div>
+		<div>
+		<form action='\bgs'method='POST'>
+		{% csrf_token %}
+			<p style="text-align:right;"><img src="https://zouchconverters.co.uk/uploads/heros/_1200x630_crop_center-center_82_none/polyethylene-foam-handbags.jpeg?mtime=1553263994"
+			width="500" 
+            height="400"></p>
+			<style>
+				h3{text-align: right;}
+			</style>
+			<h3>LUXURY BAGS</h3>
+		</div>
+			<div align="right"> 
+			<button type="Submit">Click Here</button>
+			</div>
+		</div>
+		</form>
+		
+	</div>
+</body>	
+</html>

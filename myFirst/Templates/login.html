@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Login</title>
+</head>
+<body>
+<center>
+<form action='/login' method='POST'>
+{% csrf_token %}
+<img src="https://media.istockphoto.com/id/1137712472/vector/people-vector-illustration-flat-cartoon-character-landing-page-template.jpg?s=612x612&w=0&k=20&c=iMaYTsv8kuHVqbh1_46q8UNCcX65-xkj0UCjcMvhknw="
+			width="500" 
+            height="300"></p>
+	<h1>LOGIN</h1>
+	USERNAME  : <input type="text" name="username" placeholder="Enter your Username"><br/><br/>
+	PASSWORD  : <input type="password" name="password" placeholder="Enter your password"><br/><br/>
+	<button type="log in">log in</button>
+</form>	
+</center>
+</body>
+</html>
